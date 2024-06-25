@@ -1,11 +1,11 @@
 ;;; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
 
 ;;; Information
-Full name:   apprentice
-Short name:  apprentice
+Full name:   journeyman
+Short name:  journeyman
 Description: Essentially a streamlining and conversion to xterm colors of 'sorcerer' by Jeet Sukumaran (jeetsukumaran@gmailcom)
-Author:      Romain Lafourcade <romainlafourcade@gmail.com>
-Website:     https://github.com/romainl/Apprentice
+Author:      Scott Rice <ser.arroz@gmail.com>
+Website:     https://github.com/CatskinnerTech/journeyman
 License:     MIT
 
 Variant:    gui 256 16
@@ -21,14 +21,14 @@ Color: light_grey    #6c6c6c           242               lightgrey
 Color: lighter_grey  #bcbcbc           250               lightgrey
 Color: white         #ffffff           231               white
 Color: purple        #5f5f87           60                darkmagenta
-Color: light_purple  #8787af           103               magenta
+Color: light_purple  #0000cc           103               magenta
 Color: green         #5f875f           65                darkgreen
 Color: light_green   #87af87           108               green
 Color: aqua          #5f8787           66                darkcyan
 Color: light_aqua    #5fafaf           73                cyan
 Color: blue          #5f87af           67                darkblue
 Color: light_blue    #87afd7           110               blue
-Color: red           #af5f5f           131               darkred
+Color: red           #ae0001           131               darkred
 Color: orange        #ff8700           208               red
 Color: ocre          #87875f           101               darkyellow
 Color: yellow        #ffffaf           229               yellow
