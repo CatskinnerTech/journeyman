@@ -1,16 +1,23 @@
-# Journeyman
+# JOURNEYMAN COLORSCHEME
 
-Based on the romainl/Apprentice classic colorscheme, Journeyman is a dark, low-contrast colorscheme for Vim.
-
+Journeyman is a dark, low-contrast colorscheme for Vim based on the awesome [Apprentice](http://romainl.github.io/Apprentice/) by romainl.
 It is essentially a streamlined version of the original, with a reduced number of colors entirely taken from the default xterm palette to ensure a similar look in 256colors-ready terminal emulators and GUI Vim.
 
-Here is how it looks in Terminal.app, with `TERM=xterm-256color`:
+Here is how it looks in the MacVim GUI:
+
+![image](http://romainl.github.io/Apprentice/images/macvim.app.png)
+
+And here is how it looks in Terminal.app, with `TERM=xterm-256color`:
 
 ![image](http://romainl.github.io/Apprentice/images/terminal.app.png)
 
 ## Preparing your environment
 
 Apprentice is designed first and foremost to look “good” in terminal emulators supporting 256 colors and in GUI Vim (GVim/MacVim). It supports lesser terminal emulators in the sense that it doesn’t break but it will definitely look “better” in more capable environments.
+
+### GVim/MacVim
+
+There is nothing to do for GVim/MacVim as GUI Vim supports “True Color” by default.
 
 ### “True Color” terminal emulators
 
