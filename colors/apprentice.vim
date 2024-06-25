@@ -16,7 +16,7 @@ let g:colors_name = 'apprentice'
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 1
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#1c1c1c', '#af5f5f', '#5f875f', '#87875f', '#5f87af', '#5f5f87', '#5f8787', '#6c6c6c', '#444444', '#ff8700', '#87af87', '#ffffaf', '#87afd7', '#8787af', '#5fafaf', '#ffffff']
+  let g:terminal_ansi_colors = ['#1c1c1c', '#ae0001', '#5f875f', '#87875f', '#5f87af', '#0000cc', '#5f8787', '#6c6c6c', '#444444', '#ff8700', '#87af87', '#ffffaf', '#87afd7', '#8787af', '#5fafaf', '#ffffff']
 endif
 hi Normal guifg=#bcbcbc guibg=#262626 gui=NONE cterm=NONE
 hi CursorLineNr guifg=NONE guibg=#303030 gui=NONE cterm=NONE
@@ -32,11 +32,11 @@ hi Pmenu guifg=#bcbcbc guibg=#444444 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE guibg=#585858 gui=NONE cterm=NONE
 hi PmenuSel guifg=#262626 guibg=#5f8787 gui=NONE cterm=NONE
 hi PmenuThumb guifg=#5f8787 guibg=#5f8787 gui=NONE cterm=NONE
-hi ErrorMsg guifg=#af5f5f guibg=#262626 gui=reverse cterm=reverse
+hi ErrorMsg guifg=#ae0001 guibg=#262626 gui=reverse cterm=reverse
 hi ModeMsg guifg=#87af87 guibg=#262626 gui=reverse cterm=reverse
 hi MoreMsg guifg=#5f8787 guibg=NONE gui=NONE cterm=NONE
 hi Question guifg=#87af87 guibg=NONE gui=NONE cterm=NONE
-hi WarningMsg guifg=#af5f5f guibg=NONE gui=NONE cterm=NONE
+hi WarningMsg guifg=#ae0001 guibg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#87875f guibg=#444444 gui=NONE cterm=NONE
 hi TabLineFill guifg=#444444 guibg=#444444 gui=NONE cterm=NONE
 hi TabLineSel guifg=#262626 guibg=#87875f gui=NONE cterm=NONE
@@ -56,12 +56,12 @@ hi DiffAdd guifg=#87afff guibg=#303030 gui=reverse cterm=reverse
 hi DiffChange guifg=#dfdfdf guibg=#303030 gui=reverse cterm=reverse
 hi DiffDelete guifg=#ffdf87 guibg=#303030 gui=reverse cterm=reverse
 hi DiffText guifg=#afafaf guibg=#303030 gui=reverse cterm=reverse
-hi IncSearch guifg=#262626 guibg=#af5f5f gui=NONE cterm=NONE
+hi IncSearch guifg=#262626 guibg=#ae0001 gui=NONE cterm=NONE
 hi Search guifg=#262626 guibg=#ffffaf gui=NONE cterm=NONE
 hi Directory guifg=#5fafaf guibg=NONE gui=NONE cterm=NONE
 hi debugPC guifg=NONE guibg=#5f87af gui=NONE cterm=NONE
-hi debugBreakpoint guifg=NONE guibg=#af5f5f gui=NONE cterm=NONE
-hi SpellBad guifg=#af5f5f guibg=NONE guisp=#af5f5f gui=undercurl cterm=undercurl
+hi debugBreakpoint guifg=NONE guibg=#ae0001 gui=NONE cterm=NONE
+hi SpellBad guifg=#ae0001 guibg=NONE guisp=#ae0001 gui=undercurl cterm=undercurl
 hi SpellCap guifg=#5fafaf guibg=NONE guisp=#5fafaf gui=undercurl cterm=undercurl
 hi SpellLocal guifg=#5f875f guibg=NONE guisp=#5f875f gui=undercurl cterm=undercurl
 hi SpellRare guifg=#ff8700 guibg=NONE guisp=#ff8700 gui=undercurl cterm=undercurl
@@ -72,7 +72,7 @@ hi! link QuickFixLine Search
 hi Comment guifg=#6c6c6c guibg=NONE gui=NONE cterm=NONE
 hi Conceal guifg=#bcbcbc guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ff8700 guibg=NONE gui=NONE cterm=NONE
-hi Error guifg=#af5f5f guibg=NONE gui=reverse cterm=reverse
+hi Error guifg=#ae0001 guibg=NONE gui=reverse cterm=reverse
 hi Identifier guifg=#5f87af guibg=NONE gui=NONE cterm=NONE
 hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi PreProc guifg=#5f8787 guibg=NONE gui=NONE cterm=NONE
@@ -421,7 +421,7 @@ endif
 " Color: light_grey    #6c6c6c           242               lightgrey
 " Color: lighter_grey  #bcbcbc           250               lightgrey
 " Color: white         #ffffff           231               white
-" Color: purple        #5f5f87           60                darkmagenta
+" Color: purple        #0000cc           60                darkmagenta
 " Color: light_purple  #8787af           103               magenta
 " Color: green         #5f875f           65                darkgreen
 " Color: light_green   #87af87           108               green
@@ -429,7 +429,7 @@ endif
 " Color: light_aqua    #5fafaf           73                cyan
 " Color: blue          #5f87af           67                darkblue
 " Color: light_blue    #87afd7           110               blue
-" Color: red           #af5f5f           131               darkred
+" Color: red           #ae0001           131               darkred
 " Color: orange        #ff8700           208               red
 " Color: ocre          #87875f           101               darkyellow
 " Color: yellow        #ffffaf           229               yellow
